@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise', '~> 4.8'
+gem 'pg', '~> 0.18.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -24,7 +25,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '~> 0.18.4'
+  
   gem 'rails_12factor', '0.0.2'
 end
 
